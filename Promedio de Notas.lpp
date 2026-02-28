@@ -1,0 +1,22 @@
+cadena [30] nombre
+real nota1, nota2, nota3
+real promedio
+
+Inicio
+
+escriba "ingrese su nombre completo"
+lea nombre
+escriba "ingresa tu primera nota"
+lea nota1
+escriba "ingresa tu segunda nota"
+lea nota2
+escriba "ingresa tu tercera nota"
+lea nota3
+
+promedio<- (nota1 + nota2 + nota3) / 3
+
+escriba "Hola..", nombre , "Bienvenido"
+llamar Nueva_linea
+escriba "Tu nota final es: ", promedio 
+
+Fin

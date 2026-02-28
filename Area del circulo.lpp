@@ -1,0 +1,13 @@
+real Radio
+real Area
+
+Inicio
+
+escriba "ingrese el Radio del circulo"
+lea Radio
+
+Area<- 3.14 * Radio^2
+
+escriba "El area del circulo: ", Area
+
+Fin

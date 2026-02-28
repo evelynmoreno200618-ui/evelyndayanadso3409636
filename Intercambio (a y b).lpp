@@ -1,0 +1,29 @@
+real a, b, auxiliar
+
+Inicio
+
+escriba "ingrese el primer numero (a): "
+lea a
+escriba "ingrese el segundo numero (b): "
+lea b
+
+escriba ""
+escriba "antes del intercambio"
+llamar Nueva_linea
+escriba "a = ", a
+llamar Nueva_linea
+escriba "b = ", b
+llamar Nueva_linea
+
+a <- a + b
+b <- a - b
+a <- a - b
+
+escriba ""
+escriba "Despues del intercambio:"
+llamar Nueva_linea
+escriba "a = ", a
+llamar Nueva_linea
+escriba "b = ", b
+
+Fin

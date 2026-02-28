@@ -1,0 +1,20 @@
+entero base
+entero altura 
+real area 
+real perimetro
+
+Inicio
+
+escriba "ingrese la base del rectangulo"
+lea base
+escriba "ingrese la altura del rectangulo"
+lea altura
+
+area <-base * altura
+perimetro <-2 * (base + altura)
+
+escriba "El area del rectangulo es: ", area
+llamar Nueva_linea
+escriba "El perimetro del rectangulo: ", perimetro
+
+Fin
